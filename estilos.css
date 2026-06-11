@@ -728,3 +728,57 @@ footer a {
     font-size: 0.78rem !important;
   }
 }
+/* Ajuste compacto de portada en pantallas grandes */
+@media (min-width: 900px) {
+  .cabecera {
+    min-height: auto !important;
+    padding: 1.5rem 4rem 3.5rem !important;
+  }
+
+  .navegacion {
+    margin-bottom: 3.5rem !important;
+  }
+
+  .presentacion {
+    max-width: 900px !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .bloque-institucional {
+    margin-top: 0 !important;
+    margin-bottom: 2rem !important;
+    gap: 1.15rem !important;
+  }
+
+  .logo-crebe {
+    width: 105px !important;
+    max-width: 105px !important;
+    height: auto !important;
+  }
+
+  .nombre-institucional {
+    font-size: 1.45rem !important;
+    line-height: 1.2 !important;
+  }
+
+  .detalle-institucional {
+    font-size: 1rem !important;
+    line-height: 1.25 !important;
+  }
+
+  .etiqueta-superior {
+    margin-bottom: 1rem !important;
+  }
+
+  .cabecera h1 {
+    font-size: clamp(3.8rem, 5.2vw, 5.8rem) !important;
+    line-height: 0.98 !important;
+    max-width: 900px !important;
+  }
+
+  .subtitulo {
+    font-size: 1.35rem !important;
+    margin-top: 1.5rem !important;
+  }
+}
