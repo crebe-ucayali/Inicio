@@ -2225,10 +2225,10 @@
   },
   {
     "id": "LSP-000279",
-    "categoria": "ave_maria",
+    "categoria": "religion",
     "palabra": "amen p337 t01",
     "descripcion": "",
-    "archivo_imagen": "imagenes/ave_maria/amen_p337_t01.png",
+    "archivo_imagen": "imagenes/religion/amen_p337_t01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
@@ -2705,426 +2705,426 @@
   },
   {
     "id": "LSP-000339",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "barba",
     "descripcion": "Apoyar las yemas de los dedos de ambas manos en las mejillas y realizar movimientos hacia la barbilla.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/barba.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/barba.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000340",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "bigote",
     "descripcion": "Hacer pinzas con los dedos índice y pulgar de ambas manos, sobre el labio superior, mover hacia los extremos.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/bigote.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/bigote.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000341",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "boca",
     "descripcion": "Señalar con el índice de la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/boca.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/boca.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000342",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "brazo",
     "descripcion": "Con la mano derecha señalar el brazo izquierdo con movimientos de arriba – abajo.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/brazo.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/brazo.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000343",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "cabello",
     "descripcion": "Cogerse el cabello con los dedos índice y pulgar de la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/cabello.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/cabello.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000344",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "cabeza",
     "descripcion": "Llevar la mano extendida a la altura del cuello y subirla con movimiento hacia arriba.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/cabeza.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/cabeza.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000345",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "cadera",
     "descripcion": "Con la mano derecha señalar la zona de la cadera, con movimientos de afuera hacia adentro.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/cadera.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/cadera.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000346",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "cara",
     "descripcion": "Con el dedo índice, realizar movimientos circulares alrededor de la cara.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/cara.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/cara.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000347",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "ceja",
     "descripcion": "Señalar la ceja con el dedo índice de la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/ceja.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/ceja.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000348",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "cintura",
     "descripcion": "Cogerse la cintura con ambas manos.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/cintura.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/cintura.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000349",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "codo",
     "descripcion": "Señalar el codo de la mano izquierda con el dedo índice de la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/codo.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/codo.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000350",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "columna vertebral",
     "descripcion": "Con el dedo índice señalar la zona de la columna.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/columna_vertebral.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/columna_vertebral.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000351",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "corazon",
     "descripcion": "Dibujar un corazón con los dedos índice de ambas manos a la altura del pecho.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/corazon.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/corazon.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000352",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "cuello",
     "descripcion": "Indicar el cuello con el dedo índice con un movimiento de abajo hacia arriba.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/cuello.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/cuello.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000353",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "cuerpo",
     "descripcion": "Colocar ambas manos sobre el pecho y realizar un movimiento hacia abajo.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/cuerpo.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/cuerpo.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000354",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "dedo",
     "descripcion": "Señalar con dedo índice de la mano derecha el índice de la mano izquierda.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/dedo.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/dedo.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000355",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "diente",
     "descripcion": "Señalar los dientes con el índice de la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/diente.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/diente.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000356",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "primeros_auxilios",
     "palabra": "dolor",
     "descripcion": "Separar los dedos pulgar y medio acompañando de expresión de dolor.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/dolor.png",
+    "archivo_imagen": "imagenes/primeros_auxilios/dolor.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000357",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "espalda",
     "descripcion": "Señalar la espalda con la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/espalda.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/espalda.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000358",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "estomago",
     "descripcion": "Tocarse el vientre con la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/estomago.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/estomago.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000359",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "primeros_auxilios",
     "palabra": "fiebre",
     "descripcion": "Apoyar dorso de la mano derecha en la mejilla derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/fiebre.png",
+    "archivo_imagen": "imagenes/primeros_auxilios/fiebre.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000360",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "frente",
     "descripcion": "Llevar el índice de la mano derecha a la frente, señalándola de izquierda a derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/frente.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/frente.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000361",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "garganta",
     "descripcion": "Con los dedos índice y pulgar de la mano derecha, señalar la parte delantera del cuello con movimiento de abajo hacia arriba.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/garganta.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/garganta.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000362",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "primeros_auxilios",
     "palabra": "gotas",
     "descripcion": "Unir y separar los dedos pulgar e índice de la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/gotas.png",
+    "archivo_imagen": "imagenes/primeros_auxilios/gotas.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000363",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "primeros_auxilios",
     "palabra": "herida",
     "descripcion": "Con el dedo índice de la mano derecha hacer un movimiento sobre el dorso de la mano izquierda.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/herida.png",
+    "archivo_imagen": "imagenes/primeros_auxilios/herida.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000364",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "hombro",
     "descripcion": "Señalar el hombro con los dedos extendidos de la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/hombro.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/hombro.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000365",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "primeros_auxilios",
     "palabra": "hospital",
     "descripcion": "Con los dedos índice y medio de la mano derecha, hacer una cruz en el brazo izquierdo.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/hospital.png",
+    "archivo_imagen": "imagenes/primeros_auxilios/hospital.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000366",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "primeros_auxilios",
     "palabra": "inyeccion",
     "descripcion": "Llevar dedo índice de la mano derecha extendido hacia el antebrazo izquierdo (acción de poner una inyección).",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/inyeccion.png",
+    "archivo_imagen": "imagenes/primeros_auxilios/inyeccion.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000367",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "labios",
     "descripcion": "Señalar los labios con el índice realizando un movimiento de izquierda a derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/labios.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/labios.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000368",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "lengua",
     "descripcion": "Señalar la lengua con el dedo índice de la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/lengua.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/lengua.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000369",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "mano",
     "descripcion": "Extender la mano, mostrarla realizando un ligero movimiento.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/mano.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/mano.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000370",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "primeros_auxilios",
     "palabra": "mareos",
     "descripcion": "Hacer un círculo pequeño con el dedo índice a la altura de la frente.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/mareos.png",
+    "archivo_imagen": "imagenes/primeros_auxilios/mareos.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000371",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "mejilla",
     "descripcion": "Coger la mejilla con el dedo índice y pulgar de la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/mejilla.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/mejilla.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000372",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "muneca",
     "descripcion": "Coger la muñeca de la mano izquierda, con la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/muneca.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/muneca.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000373",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "nariz",
     "descripcion": "Señalar con el dedo índice.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/nariz.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/nariz.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000374",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "ojo",
     "descripcion": "Señalar el ojo con el dedo índice de la mano derecha describiendo un pequeño círculo.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/ojo.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/ojo.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000375",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "primeros_auxilios",
     "palabra": "operacion",
     "descripcion": "Con el pulgar de la mano derecha sobre la palma de la mano izquierda marcar el movimiento de derecha a izquierda.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/operacion.png",
+    "archivo_imagen": "imagenes/primeros_auxilios/operacion.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000376",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "oreja",
     "descripcion": "Señalar el pabellón de la oreja con el dedo índice.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/oreja.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/oreja.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000377",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "primeros_auxilios",
     "palabra": "paperas",
     "descripcion": "Con ambas manos semi flexionadas cogerse la parte superior del cuello.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/paperas.png",
+    "archivo_imagen": "imagenes/primeros_auxilios/paperas.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000378",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "parpado",
     "descripcion": "Señalar con el dedo índice.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/parpado.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/parpado.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000379",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "primeros_auxilios",
     "palabra": "pastilla",
     "descripcion": "Unir yema de los dedos pulgar e índice de la mano derecha, y llevarlos hacia la boca.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/pastilla.png",
+    "archivo_imagen": "imagenes/primeros_auxilios/pastilla.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000380",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "pecho",
     "descripcion": "Apoyar la mano derecha hacia lado izquierdo del pecho y realizar un movimiento hacia la derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/pecho.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/pecho.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000381",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "pestana",
     "descripcion": "Con los dedos de la mano derecha en posición horizontal a la altura del ojo, hacer un movimiento hacia adelante y arriba.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/pestana.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/pestana.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000382",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "pie",
     "descripcion": "Señalar el pie con el dedo índice.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/pie.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/pie.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000383",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "piel",
     "descripcion": "Acción de pellizcar la piel del dorso de la mano izquierda con índice y pulgar de la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/piel.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/piel.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000384",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "pierna",
     "descripcion": "Señalar con ambas manos las piernas con movimiento de arriba hacia abajo.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/pierna.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/pierna.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000385",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "primeros_auxilios",
     "palabra": "resfriado",
     "descripcion": "Cogerse la nariz con índice y pulgar de la mano derecha y realizar un movimiento hacia adelante juntando los dedos.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/resfriado.png",
+    "archivo_imagen": "imagenes/primeros_auxilios/resfriado.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000386",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "rodilla",
     "descripcion": "Indicarla con la mano derecha.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/rodilla.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/rodilla.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000387",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "senos",
     "descripcion": "Con el dedo índice de la mano derecha señalar la zona del busto.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/senos.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/senos.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000388",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "talon",
     "descripcion": "Señalar el talón con el dedo índice.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/talon.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/talon.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000389",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "tobillo",
     "descripcion": "Señalar el tobillo con el dedo índice.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/tobillo.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/tobillo.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000390",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "primeros_auxilios",
     "palabra": "tos",
     "descripcion": "Acción de toser, colocándose la mano sobre el pecho.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/tos.png",
+    "archivo_imagen": "imagenes/primeros_auxilios/tos.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
     "id": "LSP-000391",
-    "categoria": "cuerpo_humano_primeros_auxilios",
+    "categoria": "cuerpo_humano",
     "palabra": "una",
     "descripcion": "Indicar con índice de la mano derecha la uña del índice de la mano izquierda.",
-    "archivo_imagen": "imagenes/cuerpo_humano_primeros_auxilios/una.png",
+    "archivo_imagen": "imagenes/cuerpo_humano/una.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
@@ -3485,14 +3485,6 @@
     "palabra": "ping pong",
     "descripcion": "",
     "archivo_imagen": "imagenes/juguetes_juegos_deportes/revisar_pagina_211_tarjeta_05.png",
-    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
-  },
-  {
-    "id": "LSP-000437",
-    "categoria": "material_pictografico",
-    "palabra": "al",
-    "descripcion": "EN EL",
-    "archivo_imagen": "imagenes/material_pictografico/al.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
   {
