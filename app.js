@@ -1,6 +1,6 @@
 "use strict";
 
-const RUTA_DATOS = "datos/diccionario_lsp.json";
+const RUTA_DATOS = "datos/diccionario_lsp.json?v=4";
 const TAMANO_LOTE = 16;
 
 const estado = {
@@ -38,9 +38,12 @@ function nombreCategoria(categoria) {
 
 function pluralizar(cantidad) {
   return cantidad === 1 ? "seña encontrada" : "señas encontradas";
-  function barajarRegistros(registros) {
+}
+
+function barajarRegistros(registros) {
   return [...registros].sort(() => Math.random() - 0.5);
 }
+
 function esCategoriaSecuencial(categoria) {
   const categoriasSecuenciales = [
     "padre_nuestro",
@@ -50,6 +53,7 @@ function esCategoriaSecuencial(categoria) {
 
   return categoriasSecuenciales.includes(normalizar(categoria));
 }
+
 const ORDEN_NUMEROS = new Map([
   ["cero", 0],
   ["uno", 1],
@@ -143,12 +147,14 @@ function cargarCategorias(registros) {
     );
 
   const fragmento = document.createDocumentFragment();
+
   for (const categoria of categorias) {
     const opcion = document.createElement("option");
     opcion.value = categoria;
     opcion.textContent = nombreCategoria(categoria);
     fragmento.append(opcion);
   }
+
   elementos.categoria.append(fragmento);
 }
 
@@ -156,27 +162,34 @@ function crearTarjeta(registro) {
   const fragmento = elementos.plantilla.content.cloneNode(true);
   const tarjeta = fragmento.querySelector(".tarjeta");
   const imagen = fragmento.querySelector(".imagen-sena");
+  const descripcionElemento = fragmento.querySelector(".descripcion-tarjeta");
 
   imagen.src = registro.archivo_imagen;
   imagen.alt = `Seña para la palabra ${registro.palabra}`;
+
   imagen.addEventListener("error", () => {
     imagen.classList.add("error-imagen");
     imagen.alt = `Imagen no disponible para ${registro.palabra}`;
   });
 
   fragmento.querySelector(".palabra-tarjeta").textContent = registro.palabra;
+
   fragmento.querySelector(".categoria-tarjeta").textContent =
     nombreCategoria(registro.categoria);
-  const descripcion = registro.descripcion?.trim();
-const descripcionElemento = fragmento.querySelector(".descripcion-tarjeta");
 
-if (descripcion) {
-  descripcionElemento.textContent = descripcion;
-} else {
-  descripcionElemento.hidden = true;
-}
+  const descripcion = registro.descripcion?.trim();
+
+  if (descripcionElemento) {
+    if (descripcion) {
+      descripcionElemento.textContent = descripcion;
+    } else {
+      descripcionElemento.hidden = true;
+    }
+  }
+
   fragmento.querySelector(".fuente-tarjeta").textContent =
     registro.fuente || "Fuente no especificada";
+
   tarjeta.setAttribute(
     "aria-label",
     `${registro.palabra}, categoría ${nombreCategoria(registro.categoria)}`,
@@ -189,6 +202,7 @@ function renderizar() {
   elementos.galeria.replaceChildren();
 
   const categoriaActual = elementos.categoria.value;
+
   elementos.galeria.classList.toggle(
     "galeria-secuencia",
     esCategoriaSecuencial(categoriaActual),
@@ -201,13 +215,16 @@ function renderizar() {
   for (const registro of estado.resultados.slice(0, limite)) {
     fragmento.append(crearTarjeta(registro));
   }
+
   elementos.galeria.append(fragmento);
 
   elementos.contador.textContent = `${cantidad.toLocaleString("es-PE")} ${pluralizar(cantidad)}`;
+
   elementos.mostrando.textContent =
     cantidad > 0
       ? `Mostrando ${limite.toLocaleString("es-PE")} de ${cantidad.toLocaleString("es-PE")}`
       : "";
+
   elementos.cargarMas.hidden = limite >= cantidad;
 
   if (cantidad === 0) {
@@ -234,11 +251,16 @@ function filtrar() {
     return coincidePalabra && coincideCategoria;
   });
 
-  estado.resultados = ordenarRegistros(filtrados);
+  if (!consulta && !categoria) {
+    estado.resultados = barajarRegistros(filtrados);
+  } else {
+    estado.resultados = ordenarRegistros(filtrados);
+  }
+
   estado.visibles = TAMANO_LOTE;
   renderizar();
 }
-                                         
+
 function limpiarFiltros() {
   elementos.busqueda.value = "";
   elementos.categoria.value = "";
@@ -249,21 +271,25 @@ function limpiarFiltros() {
 async function iniciar() {
   try {
     const respuesta = await fetch(RUTA_DATOS);
+
     if (!respuesta.ok) {
       throw new Error(`No se pudieron cargar los datos (${respuesta.status}).`);
     }
 
     const datos = await respuesta.json();
+
     if (!Array.isArray(datos)) {
       throw new Error("El archivo de datos no tiene el formato esperado.");
     }
 
     estado.registros = datos;
-    estado.resultados = ordenarRegistros(datos);
+    estado.resultados = barajarRegistros(datos);
+
     cargarCategorias(datos);
     renderizar();
   } catch (error) {
     console.error(error);
+
     elementos.contador.textContent = "Datos no disponibles";
     elementos.estadoCarga.hidden = false;
     elementos.estadoCarga.classList.add("error");
@@ -275,6 +301,7 @@ async function iniciar() {
 elementos.busqueda.addEventListener("input", filtrar);
 elementos.categoria.addEventListener("change", filtrar);
 elementos.limpiar.addEventListener("click", limpiarFiltros);
+
 elementos.cargarMas.addEventListener("click", () => {
   estado.visibles += TAMANO_LOTE;
   renderizar();
