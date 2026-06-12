@@ -2,16 +2,16 @@ LICENCIA DE USO EDUCATIVO NO COMERCIAL
 
 Banco Digital de Lengua de Señas Peruana
 
-© 2026 Gabriel Bermúdez. Todos los derechos reservados.
+© 2026 Gabriel Berrospi. Todos los derechos reservados.
 
-Autor: Gabriel Bermúdez
+Autor: Gabriel Berrospi
 Proyecto: Banco Digital de Lengua de Señas Peruana
 Finalidad: educativa, accesible e inclusiva
 Año de creación: 2026
 
 1. Titularidad del proyecto
 
-El Banco Digital de Lengua de Señas Peruana es una iniciativa desarrollada por Gabriel Bermúdez. La estructura del proyecto, la organización de contenidos, el diseño funcional, la programación, la base de datos, los textos descriptivos, la clasificación de categorías, la interfaz y los materiales propios forman parte de una obra protegida por derecho de autor.
+El Banco Digital de Lengua de Señas Peruana es una iniciativa desarrollada por Gabriel Berrospi. La estructura del proyecto, la organización de contenidos, el diseño funcional, la programación, la base de datos, los textos descriptivos, la clasificación de categorías, la interfaz y los materiales propios forman parte de una obra protegida por derecho de autor.
 
 2. Uso permitido
 
@@ -28,7 +28,7 @@ Se permite:
 
 Toda referencia, uso, adaptación autorizada o difusión del proyecto deberá reconocer la autoría de la siguiente manera:
 
-Banco Digital de Lengua de Señas Peruana, desarrollado por Gabriel Bermúdez, 2026.
+Banco Digital de Lengua de Señas Peruana, desarrollado por Gabriel Berrospi, 2026.
 
 No se permite eliminar, ocultar o modificar los créditos de autoría incluidos en la página, el repositorio o los materiales derivados del proyecto.
 
