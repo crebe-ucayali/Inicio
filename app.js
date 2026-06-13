@@ -1,7 +1,7 @@
 "use strict";
 
 const RUTA_DATOS = "datos/diccionario_lsp.json?v=4";
-const TAMANO_LOTE = 16;
+const TAMANO_LOTE = 8;
 
 const estado = {
   registros: [],
