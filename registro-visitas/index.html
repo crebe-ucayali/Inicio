@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta
+    name="description"
+    content="Ejemplo de formulario de registro de visitas y sugerencias para recursos digitales inclusivos."
+  >
+  <title>Registro y sugerencias | Banco Digital LSP</title>
+  <link rel="stylesheet" href="../estilos.css?v=13">
+  <link rel="stylesheet" href="registro-visitas.css?v=1">
+</head>
+<body class="pagina-registro">
+  <a class="salto-contenido" href="#contenido">Ir al contenido</a>
+
+  <header class="cabecera cabecera-interior">
+    <nav class="navegacion" aria-label="Navegación principal">
+      <a class="marca" href="../index.html" aria-label="Volver al banco">
+        <span class="marca-icono" aria-hidden="true">RV</span>
+        <span>Registro y sugerencias</span>
+      </a>
+
+      <div class="enlaces-superiores">
+        <a class="enlace-inicio" href="../index.html">Banco LSP</a>
+        <a class="enlace-creditos" href="../teoria.html">Teoría LSP</a>
+      </div>
+    </nav>
+
+    <div class="presentacion presentacion-registro">
+      <p class="etiqueta-superior">Uso de recursos digitales</p>
+      <h1>Registro y sugerencias</h1>
+      <p class="subtitulo">
+        Espacio breve para registrar visitas, conocer los recursos consultados y recoger aportes de docentes, familias y comunidad educativa.
+      </p>
+    </div>
+  </header>
+
+  <main id="contenido" class="contenido-registro">
+    <section class="panel-busqueda panel-registro" aria-labelledby="titulo-registro">
+      <div class="panel-encabezado">
+        <div>
+          <p class="seccion-etiqueta">Formulario breve</p>
+          <h2 id="titulo-registro">Registrar visita</h2>
+        </div>
+        <p class="tiempo-registro">Toma menos de un minuto</p>
+      </div>
+
+      <form id="formulario-registro" class="formulario-registro">
+        <div class="campo-registro campo-completo">
+          <label for="nombre">Nombre o institución</label>
+          <input id="nombre" name="nombre" type="text" placeholder="Ejemplo: IE, docente, familia o visitante" required>
+        </div>
+
+        <div class="campo-registro">
+          <label for="tipo">Tipo de visitante</label>
+          <select id="tipo" name="tipo" required>
+            <option value="">Seleccionar</option>
+            <option>Docente</option>
+            <option>Familia</option>
+            <option>Directivo</option>
+            <option>Estudiante</option>
+            <option>Especialista</option>
+            <option>Otro</option>
+          </select>
+        </div>
+
+        <div class="campo-registro">
+          <label for="recurso">Recurso consultado</label>
+          <select id="recurso" name="recurso" required>
+            <option value="">Seleccionar</option>
+            <option>Banco Digital LSP</option>
+            <option>Noti inclusivas</option>
+            <option>Módulo Braille</option>
+            <option>Materiales educativos</option>
+            <option>Orientaciones</option>
+            <option>Otro recurso</option>
+          </select>
+        </div>
+
+        <div class="campo-registro campo-completo">
+          <label for="comentario">Comentario o sugerencia, opcional</label>
+          <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe una sugerencia, necesidad o recurso que te gustaría encontrar."></textarea>
+        </div>
+
+        <div class="acciones-registro campo-completo">
+          <button class="boton-principal" type="submit">Enviar registro</button>
+          <p id="mensaje-registro" class="mensaje-registro" aria-live="polite"></p>
+        </div>
+      </form>
+    </section>
+
+    <section class="bloque-informativo-registro" aria-labelledby="titulo-uso">
+      <p class="seccion-etiqueta">Finalidad</p>
+      <h2 id="titulo-uso">¿Para qué sirve este registro?</h2>
+      <p>
+        Este espacio permite conocer qué recursos digitales se están consultando y recoger sugerencias para mejorar la plataforma. La información puede utilizarse como evidencia institucional de uso, mejora continua y atención a necesidades de la comunidad educativa.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-final">
+      <p>
+        © 2026 Registro y sugerencias. Recurso vinculado al Banco Digital de Lengua de Señas Peruana.
+      </p>
+    </div>
+  </footer>
+
+  <script src="registro-visitas.js?v=1" defer></script>
+</body>
+</html>
