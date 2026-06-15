@@ -53,8 +53,8 @@
         </div>
 
         <div class="campo-registro">
-          <label for="institucion">Institución o entidad</label>
-          <input id="institucion" name="institucion" type="text" placeholder="Ejemplo: IE, CEBE, CREBE u otra entidad" required>
+          <label for="institucion">Institución o entidad <span class="texto-opcional">(opcional)</span></label>
+          <input id="institucion" name="institucion" type="text" placeholder="Ejemplo: IE, CEBE, CREBE u otra entidad">
         </div>
 
         <div class="campo-registro">
@@ -71,7 +71,7 @@
           </select>
         </div>
 
-        <div class="campo-registro">
+        <div class="campo-registro campo-completo">
           <label for="modulo">Módulo visitado</label>
           <select id="modulo" name="modulo" required>
             <option value="">Seleccionar</option>
@@ -88,27 +88,13 @@
           </select>
         </div>
 
-        <div class="campo-registro">
-          <label for="motivo">Motivo de la visita</label>
-          <select id="motivo" name="motivo" required>
-            <option value="">Seleccionar</option>
-            <option>Consulta educativa</option>
-            <option>Capacitación</option>
-            <option>Descarga o revisión de material</option>
-            <option>Apoyo familiar</option>
-            <option>Revisión pedagógica</option>
-            <option>Observación o sugerencia</option>
-            <option>Otro</option>
-          </select>
-        </div>
-
         <div class="campo-registro campo-completo">
-          <label for="correo">Correo electrónico</label>
+          <label for="correo">Correo electrónico <span class="texto-opcional">(opcional)</span></label>
           <input id="correo" name="correo" type="email" placeholder="correo@ejemplo.com">
         </div>
 
         <div class="campo-registro campo-completo">
-          <label for="comentario">Comentario u observación, opcional</label>
+          <label for="comentario">Comentario u observación <span class="texto-opcional">(opcional)</span></label>
           <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe una sugerencia, necesidad, observación o recurso que te gustaría encontrar."></textarea>
         </div>
 
@@ -123,7 +109,7 @@
       <p class="seccion-etiqueta">Finalidad</p>
       <h2 id="titulo-uso">¿Para qué sirve este registro?</h2>
       <p>
-        Este espacio permite conocer qué recursos digitales se están consultando y recoger sugerencias para mejorar la plataforma. La información puede utilizarse como evidencia institucional de uso, mejora continua y atención a necesidades de la comunidad educativa.
+        Este espacio permite conocer qué módulo de la plataforma se está consultando y recoger sugerencias para mejorar los recursos digitales. La información puede utilizarse como evidencia institucional de uso, mejora continua y atención a necesidades de la comunidad educativa.
       </p>
     </section>
   </main>
@@ -136,6 +122,6 @@
     </div>
   </footer>
 
-  <script src="registro-visitas.js?v=2" defer></script>
+  <script src="registro-visitas.js?v=3" defer></script>
 </body>
 </html>
