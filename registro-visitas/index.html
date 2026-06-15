@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta
     name="description"
-    content="Ejemplo de formulario de registro de visitas y sugerencias para recursos digitales inclusivos."
+    content="Formulario de registro de visitas y observaciones para la Plataforma Educativa Digital CREBE Ucayali."
   >
-  <title>Registro y sugerencias | Banco Digital LSP</title>
+  <title>Registro de visitas | Banco Digital LSP</title>
   <link rel="stylesheet" href="../estilos.css?v=13">
   <link rel="stylesheet" href="registro-visitas.css?v=1">
 </head>
@@ -18,7 +18,7 @@
     <nav class="navegacion" aria-label="Navegación principal">
       <a class="marca" href="../index.html" aria-label="Volver al banco">
         <span class="marca-icono" aria-hidden="true">RV</span>
-        <span>Registro y sugerencias</span>
+        <span>Registro de visitas</span>
       </a>
 
       <div class="enlaces-superiores">
@@ -29,7 +29,7 @@
 
     <div class="presentacion presentacion-registro">
       <p class="etiqueta-superior">Uso de recursos digitales</p>
-      <h1>Registro y sugerencias</h1>
+      <h1>Registro de visitas</h1>
       <p class="subtitulo">
         Espacio breve para registrar visitas, conocer los recursos consultados y recoger aportes de docentes, familias y comunidad educativa.
       </p>
@@ -48,39 +48,68 @@
 
       <form id="formulario-registro" class="formulario-registro">
         <div class="campo-registro campo-completo">
-          <label for="nombre">Nombre o institución</label>
-          <input id="nombre" name="nombre" type="text" placeholder="Ejemplo: IE, docente, familia o visitante" required>
+          <label for="nombres">Nombres y apellidos</label>
+          <input id="nombres" name="nombres" type="text" placeholder="Escribe tus nombres y apellidos" required>
         </div>
 
         <div class="campo-registro">
-          <label for="tipo">Tipo de visitante</label>
-          <select id="tipo" name="tipo" required>
+          <label for="institucion">Institución o entidad</label>
+          <input id="institucion" name="institucion" type="text" placeholder="Ejemplo: IE, CEBE, CREBE u otra entidad" required>
+        </div>
+
+        <div class="campo-registro">
+          <label for="rol">Cargo o rol</label>
+          <select id="rol" name="rol" required>
             <option value="">Seleccionar</option>
             <option>Docente</option>
             <option>Familia</option>
             <option>Directivo</option>
             <option>Estudiante</option>
             <option>Especialista</option>
+            <option>Personal CREBE</option>
             <option>Otro</option>
           </select>
         </div>
 
         <div class="campo-registro">
-          <label for="recurso">Recurso consultado</label>
-          <select id="recurso" name="recurso" required>
+          <label for="modulo">Módulo visitado</label>
+          <select id="modulo" name="modulo" required>
             <option value="">Seleccionar</option>
+            <option>Plataforma general</option>
             <option>Banco Digital LSP</option>
-            <option>Noti inclusivas</option>
-            <option>Módulo Braille</option>
-            <option>Materiales educativos</option>
-            <option>Orientaciones</option>
-            <option>Otro recurso</option>
+            <option>Banco Digital Braille</option>
+            <option>Banco Digital Accesible</option>
+            <option>Materiales Educativos Accesibles</option>
+            <option>Juegos Educativos Accesibles</option>
+            <option>Capacitaciones CREBE</option>
+            <option>Noti Inclusivos</option>
+            <option>TEA/TDAH</option>
+            <option>Otro</option>
+          </select>
+        </div>
+
+        <div class="campo-registro">
+          <label for="motivo">Motivo de la visita</label>
+          <select id="motivo" name="motivo" required>
+            <option value="">Seleccionar</option>
+            <option>Consulta educativa</option>
+            <option>Capacitación</option>
+            <option>Descarga o revisión de material</option>
+            <option>Apoyo familiar</option>
+            <option>Revisión pedagógica</option>
+            <option>Observación o sugerencia</option>
+            <option>Otro</option>
           </select>
         </div>
 
         <div class="campo-registro campo-completo">
-          <label for="comentario">Comentario o sugerencia, opcional</label>
-          <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe una sugerencia, necesidad o recurso que te gustaría encontrar."></textarea>
+          <label for="correo">Correo electrónico</label>
+          <input id="correo" name="correo" type="email" placeholder="correo@ejemplo.com">
+        </div>
+
+        <div class="campo-registro campo-completo">
+          <label for="comentario">Comentario u observación, opcional</label>
+          <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe una sugerencia, necesidad, observación o recurso que te gustaría encontrar."></textarea>
         </div>
 
         <div class="acciones-registro campo-completo">
@@ -102,11 +131,11 @@
   <footer>
     <div class="footer-final">
       <p>
-        © 2026 Registro y sugerencias. Recurso vinculado al Banco Digital de Lengua de Señas Peruana.
+        © 2026 Registro de visitas. Recurso vinculado al Banco Digital de Lengua de Señas Peruana.
       </p>
     </div>
   </footer>
 
-  <script src="registro-visitas.js?v=1" defer></script>
+  <script src="registro-visitas.js?v=2" defer></script>
 </body>
 </html>
