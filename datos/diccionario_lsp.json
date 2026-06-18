@@ -4403,7 +4403,7 @@
     "id": "LSP-000555",
     "categoria": "paises_y_ciudades",
     "palabra": "américa",
-    "descripcion": "",
+    "descripcion": "Entrelazar dedos de ambas manos y realizar un movimiento circular.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4411,7 +4411,7 @@
     "id": "LSP-000556",
     "categoria": "paises_y_ciudades",
     "palabra": "américa del sur",
-    "descripcion": "",
+    "descripcion": "1.Seña de América. 2.Configurar "S".",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4419,7 +4419,7 @@
     "id": "LSP-000557",
     "categoria": "paises_y_ciudades",
     "palabra": "áfrica",
-    "descripcion": "",
+    "descripcion": "Con la palma de la mano derecha extendida y el dedo medio flexionado, realizar un movimiento circular delante del rostro.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4427,7 +4427,7 @@
     "id": "LSP-000558",
     "categoria": "paises_y_ciudades",
     "palabra": "asia",
-    "descripcion": "",
+    "descripcion": "Configurar "A" y hacer un círculo completo alrededor del rostro, comenzando en el mentón.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4435,7 +4435,7 @@
     "id": "LSP-000559",
     "categoria": "paises_y_ciudades",
     "palabra": "oceanía",
-    "descripcion": "",
+    "descripcion": "Con cuatro dedos extendidos de la mano derecha a la altura del hombro derecho, realizar un movimiento ondulatorio.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4443,7 +4443,7 @@
     "id": "LSP-000560",
     "categoria": "paises_y_ciudades",
     "palabra": "europa",
-    "descripcion": "",
+    "descripcion": "Configurar "E" a la altura de la nariz, efectuar un movimiento circular alrededor del rostro, regresando al mismo punto.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4451,7 +4451,7 @@
     "id": "LSP-000561",
     "categoria": "paises_y_ciudades",
     "palabra": "alemania",
-    "descripcion": "",
+    "descripcion": "Colocar en la frente el dorso de la mano derecha con el índice extendido, los demás dedos flexionados.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_222_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4459,7 +4459,7 @@
     "id": "LSP-000562",
     "categoria": "paises_y_ciudades",
     "palabra": "argentina",
-    "descripcion": "",
+    "descripcion": "Con la mano derecha semiflexionada, realizar pequeños movimientos a la altura del hombro derecho.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_222_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4467,7 +4467,7 @@
     "id": "LSP-000563",
     "categoria": "paises_y_ciudades",
     "palabra": "bolivia",
-    "descripcion": "",
+    "descripcion": "Unir las yemas del pulgar, medio y anular, realizar movimientos giratorios.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_222_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4475,7 +4475,7 @@
     "id": "LSP-000564",
     "categoria": "paises_y_ciudades",
     "palabra": "brasil",
-    "descripcion": "",
+    "descripcion": "Flexionando el pulgar de la mano derecha, los demás dedos extendidos, realizar un movimiento ondulatorio hacia abajo.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_222_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4483,7 +4483,7 @@
     "id": "LSP-000565",
     "categoria": "paises_y_ciudades",
     "palabra": "canadá",
-    "descripcion": "",
+    "descripcion": "Con los dedos flexionados excepto el pulgar, apoyar el borde radial de la mano derecha en el pecho, ejecutar movimiento de la derecha hacia la izquierda.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_222_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4491,7 +4491,7 @@
     "id": "LSP-000566",
     "categoria": "paises_y_ciudades",
     "palabra": "chile",
-    "descripcion": "",
+    "descripcion": "Unir yemas de dedo índice y pulgar en la sien, los demás dedos extendidos y realizar un movimiento hacia atrás.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_222_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4499,7 +4499,7 @@
     "id": "LSP-000567",
     "categoria": "paises_y_ciudades",
     "palabra": "china",
-    "descripcion": "",
+    "descripcion": "Trazar una línea horizontal en el pecho de izquierda a derecha y de ese punto una línea vertical hacia abajo.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4507,7 +4507,7 @@
     "id": "LSP-000568",
     "categoria": "paises_y_ciudades",
     "palabra": "colombia",
-    "descripcion": "",
+    "descripcion": "Configurar "C" con la mano derecha, realizando movimientos giratorios.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4515,7 +4515,7 @@
     "id": "LSP-000569",
     "categoria": "paises_y_ciudades",
     "palabra": "costa rica",
-    "descripcion": "",
+    "descripcion": "Sobre el dorso de la mano izquierda, configurar la "C" y la "R".",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4523,7 +4523,7 @@
     "id": "LSP-000570",
     "categoria": "paises_y_ciudades",
     "palabra": "cuba",
-    "descripcion": "",
+    "descripcion": "1.Colocar los cuatro dedos extendidos de la mano derecha en la frente. 2.Girar la posición hacia afuera.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4531,7 +4531,7 @@
     "id": "LSP-000571",
     "categoria": "paises_y_ciudades",
     "palabra": "ecuador",
-    "descripcion": "",
+    "descripcion": "Apoyar sobre el mentón los dedos índice y medio semiflexionados, realizar pequeños movimientos de giro sobre él.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4539,7 +4539,7 @@
     "id": "LSP-000572",
     "categoria": "paises_y_ciudades",
     "palabra": "egipto",
-    "descripcion": "",
+    "descripcion": "Llevar a la frente el dorso de la mano derecha con el índice semiflexionado, los demás dedos flexionados.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4547,7 +4547,7 @@
     "id": "LSP-000573",
     "categoria": "paises_y_ciudades",
     "palabra": "españa",
-    "descripcion": "",
+    "descripcion": "Con los dedos pulgar e índice de la mano en contacto con el hombro derecho, hacer un movimiento horizontal al hombro izquierdo.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_224_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4555,7 +4555,7 @@
     "id": "LSP-000574",
     "categoria": "paises_y_ciudades",
     "palabra": "estados unidos",
-    "descripcion": "",
+    "descripcion": "Formar la "U" del alfabeto con la mano derecha, realizar un movimiento de vaivén de derecha a izquierda.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_224_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4563,7 +4563,7 @@
     "id": "LSP-000575",
     "categoria": "paises_y_ciudades",
     "palabra": "francia",
-    "descripcion": "",
+    "descripcion": "1.Configurar la letra F con la mano derecha a la altura de la boca. 2.Girar la muñeca hacia adelante.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_224_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4571,7 +4571,7 @@
     "id": "LSP-000576",
     "categoria": "paises_y_ciudades",
     "palabra": "holanda",
-    "descripcion": "",
+    "descripcion": "Manos abiertas al nivel de las orejas, llevarlas hacia afuera uniendo las yemas.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_224_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4579,7 +4579,7 @@
     "id": "LSP-000577",
     "categoria": "paises_y_ciudades",
     "palabra": "india",
-    "descripcion": "",
+    "descripcion": "Llevar el dedo índice extendido al centro de la frente.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_224_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4587,7 +4587,7 @@
     "id": "LSP-000578",
     "categoria": "paises_y_ciudades",
     "palabra": "inglaterra",
-    "descripcion": "",
+    "descripcion": "Ejecutar un movimiento en forma de aspa delante del tronco con los dedos índice, medio, anular y meñique extendidos y el pulgar flexionado en la palma de la mano derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_224_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4595,7 +4595,7 @@
     "id": "LSP-000579",
     "categoria": "paises_y_ciudades",
     "palabra": "uruguay",
-    "descripcion": "",
+    "descripcion": "Formar la "U" del alfabeto con la cara palmar hacia adentro y girar la mano hacia afuera varias veces.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4603,7 +4603,7 @@
     "id": "LSP-000580",
     "categoria": "paises_y_ciudades",
     "palabra": "venezuela",
-    "descripcion": "",
+    "descripcion": "Con los dedos índice y medio extendidos y separados de la mano derecha hacer un movimiento ondulatorio hacia abajo.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4611,7 +4611,7 @@
     "id": "LSP-000581",
     "categoria": "paises_y_ciudades",
     "palabra": "amazonas",
-    "descripcion": "",
+    "descripcion": "Configurando "A" con la mano derecha y realizar movimientos ondulatorios hacia la izquierda con la mano extendida.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4619,7 +4619,7 @@
     "id": "LSP-000582",
     "categoria": "paises_y_ciudades",
     "palabra": "ancash",
-    "descripcion": "",
+    "descripcion": "Configurando "A" con la mano derecha realizar movimientos ondulatorios amplios a la altura de la frente.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4627,7 +4627,7 @@
     "id": "LSP-000583",
     "categoria": "paises_y_ciudades",
     "palabra": "apurímac",
-    "descripcion": "",
+    "descripcion": "1.Configurar la letra "A". 2.Configurar la letra "C" con un movimiento horizontal hacia la derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
