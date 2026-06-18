@@ -4411,7 +4411,7 @@
     "id": "LSP-000556",
     "categoria": "paises_y_ciudades",
     "palabra": "américa del sur",
-    "descripcion": "1.Seña de América. 2.Configurar "S".",
+    "descripcion": "1.Seña de América. 2.Configurar \"S\".",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4427,7 +4427,7 @@
     "id": "LSP-000558",
     "categoria": "paises_y_ciudades",
     "palabra": "asia",
-    "descripcion": "Configurar "A" y hacer un círculo completo alrededor del rostro, comenzando en el mentón.",
+    "descripcion": "Configurar \"A\" y hacer un círculo completo alrededor del rostro, comenzando en el mentón.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4443,7 +4443,7 @@
     "id": "LSP-000560",
     "categoria": "paises_y_ciudades",
     "palabra": "europa",
-    "descripcion": "Configurar "E" a la altura de la nariz, efectuar un movimiento circular alrededor del rostro, regresando al mismo punto.",
+    "descripcion": "Configurar \"E\" a la altura de la nariz, efectuar un movimiento circular alrededor del rostro, regresando al mismo punto.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_221_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4507,7 +4507,7 @@
     "id": "LSP-000568",
     "categoria": "paises_y_ciudades",
     "palabra": "colombia",
-    "descripcion": "Configurar "C" con la mano derecha, realizando movimientos giratorios.",
+    "descripcion": "Configurar \"C\" con la mano derecha, realizando movimientos giratorios.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4515,7 +4515,7 @@
     "id": "LSP-000569",
     "categoria": "paises_y_ciudades",
     "palabra": "costa rica",
-    "descripcion": "Sobre el dorso de la mano izquierda, configurar la "C" y la "R".",
+    "descripcion": "Sobre el dorso de la mano izquierda, configurar la \"C\" y la \"R\".",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_223_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4611,7 +4611,7 @@
     "id": "LSP-000581",
     "categoria": "paises_y_ciudades",
     "palabra": "amazonas",
-    "descripcion": "Configurando "A" con la mano derecha y realizar movimientos ondulatorios hacia la izquierda con la mano extendida.",
+    "descripcion": "Configurando \"A\" con la mano derecha y realizar movimientos ondulatorios hacia la izquierda con la mano extendida.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4627,7 +4627,7 @@
     "id": "LSP-000583",
     "categoria": "paises_y_ciudades",
     "palabra": "apurímac",
-    "descripcion": "1.Configurar la letra "A". 2.Configurar la letra "C" con un movimiento horizontal hacia la derecha.",
+    "descripcion": "1.Configurar la letra \"A\". 2.Configurar la letra \"C\" con un movimiento horizontal hacia la derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_226_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4659,7 +4659,7 @@
     "id": "LSP-000587",
     "categoria": "paises_y_ciudades",
     "palabra": "ica",
-    "descripcion": "1.Configurar "I" con la mano derecha. 2.Apoyar sobre la palma izquierda el borde cubital de la mano derecha con los dedos semiflexionados.",
+    "descripcion": "1.Configurar \"I\" con la mano derecha. 2.Apoyar sobre la palma izquierda el borde cubital de la mano derecha con los dedos semiflexionados.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_228_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4675,7 +4675,7 @@
     "id": "LSP-000589",
     "categoria": "paises_y_ciudades",
     "palabra": "madre de dios",
-    "descripcion": "1.Configurar "M" con la mano derecha. 2.Configurar la seña "DIOS".",
+    "descripcion": "1.Configurar \"M\" con la mano derecha. 2.Configurar la seña "DIOS".",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_228_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4691,7 +4691,7 @@
     "id": "LSP-000591",
     "categoria": "paises_y_ciudades",
     "palabra": "puno",
-    "descripcion": "Configurar la letra "P" en la mejilla derecha y realizar movimientos circulares sobre ella.",
+    "descripcion": "Configurar la letra \"P\" en la mejilla derecha y realizar movimientos circulares sobre ella.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_229_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4699,7 +4699,7 @@
     "id": "LSP-000592",
     "categoria": "paises_y_ciudades",
     "palabra": "san martin",
-    "descripcion": "1.Configurar "S" con la mano derecha. 2.Realizando un movimiento ondulatorio hacia abajo configurar "M".",
+    "descripcion": "1.Configurar \"S\" con la mano derecha. 2.Realizando un movimiento ondulatorio hacia abajo configurar \"M\".",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_229_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4707,7 +4707,7 @@
     "id": "LSP-000593",
     "categoria": "paises_y_ciudades",
     "palabra": "tacna",
-    "descripcion": "1.Formar "T" con la mano derecha. 2.Sobre el antebrazo izquierdo realizar un movimiento semicircular, desde la altura del codo hasta los dedos.",
+    "descripcion": "1.Formar \"T\" con la mano derecha. 2.Sobre el antebrazo izquierdo realizar un movimiento semicircular, desde la altura del codo hasta los dedos.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_229_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4723,7 +4723,7 @@
     "id": "LSP-000595",
     "categoria": "paises_y_ciudades",
     "palabra": "tumbes",
-    "descripcion": "Configurar la letra "T" con la mano derecha en la frente.",
+    "descripcion": "Configurar la letra \"T\" con la mano derecha en la frente.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_229_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4739,7 +4739,7 @@
     "id": "LSP-000597",
     "categoria": "paises_y_ciudades",
     "palabra": "lima",
-    "descripcion": "Colocar sobre la palma de la mano izquierda la derecha configurando "L".",
+    "descripcion": "Colocar sobre la palma de la mano izquierda la derecha configurando \"L\".",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_230_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4755,7 +4755,7 @@
     "id": "LSP-000599",
     "categoria": "paises_y_ciudades",
     "palabra": "barranco",
-    "descripcion": "A la altura de la cabeza configurar "B" con la mano derecha, la palma hacia afuera, bajar la mano con movimiento recto.",
+    "descripcion": "A la altura de la cabeza configurar \"B\" con la mano derecha, la palma hacia afuera, bajar la mano con movimiento recto.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_230_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4763,7 +4763,7 @@
     "id": "LSP-000600",
     "categoria": "paises_y_ciudades",
     "palabra": "callao",
-    "descripcion": "Configurar "C" con la mano derecha, acompañar con movimiento de izquierda a derecha.",
+    "descripcion": "Configurar \"C\" con la mano derecha, acompañar con movimiento de izquierda a derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_230_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4771,7 +4771,7 @@
     "id": "LSP-000601",
     "categoria": "paises_y_ciudades",
     "palabra": "comas",
-    "descripcion": "Configurar "C" con la mano derecha y realizar un movimiento de derecha a izquierda, sobre el dorso de la mano izquierda.",
+    "descripcion": "Configurar \"C\" con la mano derecha y realizar un movimiento de derecha a izquierda, sobre el dorso de la mano izquierda.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_230_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4779,7 +4779,7 @@
     "id": "LSP-000602",
     "categoria": "paises_y_ciudades",
     "palabra": "chorrillos",
-    "descripcion": "1.Con la mano derecha configurar "C". 2.Juntar las manos con los dedos semiflexionados.",
+    "descripcion": "1.Con la mano derecha configurar \"C\". 2.Juntar las manos con los dedos semiflexionados.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_230_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4795,7 +4795,7 @@
     "id": "LSP-000604",
     "categoria": "paises_y_ciudades",
     "palabra": "jesús maría",
-    "descripcion": "1.Seña de Jesús. 2.Configurar "M" con la mano derecha.",
+    "descripcion": "1.Seña de Jesús. 2.Configurar \"M\" con la mano derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_231_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4803,7 +4803,7 @@
     "id": "LSP-000605",
     "categoria": "paises_y_ciudades",
     "palabra": "la victoria",
-    "descripcion": "Configurar "V" con la mano derecha sobre la frente, acompañar con movimiento hacia adelante.",
+    "descripcion": "Configurar \"V\" con la mano derecha sobre la frente, acompañar con movimiento hacia adelante.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_231_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4811,7 +4811,7 @@
     "id": "LSP-000606",
     "categoria": "paises_y_ciudades",
     "palabra": "lince",
-    "descripcion": "Configurar "L" con la mano derecha con movimientos de derecha a izquierda, sobre el dorso de la mano izquierda.",
+    "descripcion": "Configurar \"L\" con la mano derecha con movimientos de derecha a izquierda, sobre el dorso de la mano izquierda.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_231_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4819,7 +4819,7 @@
     "id": "LSP-000607",
     "categoria": "paises_y_ciudades",
     "palabra": "la molina",
-    "descripcion": "Configurar "M" con la mano derecha y ejecutar un movimiento ondulatorio hacia arriba.",
+    "descripcion": "Configurar \"M\" con la mano derecha y ejecutar un movimiento ondulatorio hacia arriba.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_231_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4827,7 +4827,7 @@
     "id": "LSP-000608",
     "categoria": "paises_y_ciudades",
     "palabra": "magdalena",
-    "descripcion": "Formar la "T" en la sien, realizar un movimiento giratorio.",
+    "descripcion": "Formar la \"T\" en la sien, realizar un movimiento giratorio.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_231_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4835,7 +4835,7 @@
     "id": "LSP-000609",
     "categoria": "paises_y_ciudades",
     "palabra": "miraflores",
-    "descripcion": "Configurar "C" con ambas manos a la altura de las orejas, realizar un movimiento giratorio.",
+    "descripcion": "Configurar \"C\" con ambas manos a la altura de las orejas, realizar un movimiento giratorio.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_232_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4851,7 +4851,7 @@
     "id": "LSP-000611",
     "categoria": "paises_y_ciudades",
     "palabra": "pueblo libre",
-    "descripcion": "1.Configurar "P" con la mano derecha. 2.Configurar "L" con ambas manos, acompañado de movimiento recto hacia los lados separando las manos.",
+    "descripcion": "1.Configurar \"P\" con la mano derecha. 2.Configurar \"L\" con ambas manos, acompañado de movimiento recto hacia los lados separando las manos.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_232_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4859,7 +4859,7 @@
     "id": "LSP-000612",
     "categoria": "paises_y_ciudades",
     "palabra": "rímac",
-    "descripcion": "1.Configurar "R" del alfabeto. 2.Movimiento hacia abajo.",
+    "descripcion": "1.Configurar \"R\" del alfabeto. 2.Movimiento hacia abajo.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_232_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4867,7 +4867,7 @@
     "id": "LSP-000613",
     "categoria": "paises_y_ciudades",
     "palabra": "san borja",
-    "descripcion": "1.Configurar "S" con la mano derecha. 2.Configurar "B" con la mano derecha.",
+    "descripcion": "1.Configurar \"S\" con la mano derecha. 2.Configurar \"B\" con la mano derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_232_tarjeta_05.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -4875,7 +4875,7 @@
     "id": "LSP-000614",
     "categoria": "paises_y_ciudades",
     "palabra": "san isidro",
-    "descripcion": "1.Configurar "S" con la mano derecha. 2.Formarla "I" con la mano derecha.",
+    "descripcion": "1.Configurar \"S\" con la mano derecha. 2.Formarla \"I\" con la mano derecha.",
     "archivo_imagen": "imagenes/paises_y_ciudades/revisar_pagina_232_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
