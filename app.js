@@ -287,7 +287,7 @@ async function cargarBanco() {
     elementos.estado.hidden = false;
     elementos.estado.textContent = "Preparando el banco de señas…";
 
-    const respuesta = await fetch("datos/diccionario_lsp.json");
+    const respuesta = await fetch("datos/diccionario_lsp.json?v=20260618-0525");
 
     if (!respuesta.ok) {
       throw new Error(`Error HTTP ${respuesta.status}`);
