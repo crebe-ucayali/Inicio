@@ -8935,15 +8935,15 @@
   "archivo_imagen": "imagenes/himno_nacional/himno_nacional_12.png",
   "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
 },
-  {
-    "id": "LSP-900001",
-    "categoria": "padre_nuestro",
-    "palabra": "Parte 01",
-    "descripcion": "",
-    "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_01.png",
-    "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
-  },
-  {
+{
+  "id": "LSP-900001",
+  "categoria": "padre_nuestro",
+  "palabra": "Parte 01",
+  "descripcion": "",
+  "archivo_imagen": "imagenes/padre_nuestro/padre_nuestro_01.png",
+  "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
+},
+{
     "id": "LSP-900002",
     "categoria": "padre_nuestro",
     "palabra": "Parte 02",
