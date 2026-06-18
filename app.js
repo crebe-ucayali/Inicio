@@ -69,44 +69,6 @@ function obtenerTextoConsultable(item) {
   );
 }
 
-function escaparComillasInternas(texto) {
-  let salida = "";
-
-  for (let i = 0; i < texto.length; i += 1) {
-    const caracter = texto[i];
-    const anterior = texto[i - 1];
-
-    if (caracter === "\"" && anterior !== "\\") {
-      salida += "\\\"";
-    } else {
-      salida += caracter;
-    }
-  }
-
-  return salida;
-}
-
-function repararLineaDescripcion(linea) {
-  const coincidencia = linea.match(/^(\s*"descripcion"\s*:\s*")(.*)("\s*,?\s*)$/);
-
-  if (!coincidencia) {
-    return linea;
-  }
-
-  const inicio = coincidencia[1];
-  const contenido = coincidencia[2];
-  const cierre = coincidencia[3];
-
-  return `${inicio}${escaparComillasInternas(contenido)}${cierre}`;
-}
-
-function repararJSONBanco(texto) {
-  return texto
-    .split("\n")
-    .map(repararLineaDescripcion)
-    .join("\n");
-}
-
 function ordenarResultados(lista) {
   return [...lista].sort((a, b) => {
     const categoriaA = formatearCategoria(a.categoria);
@@ -331,9 +293,7 @@ async function cargarBanco() {
       throw new Error(`Error HTTP ${respuesta.status}`);
     }
 
-    const textoOriginal = await respuesta.text();
-    const textoReparado = repararJSONBanco(textoOriginal);
-    const datos = JSON.parse(textoReparado);
+    const datos = await respuesta.json();
 
     if (!Array.isArray(datos)) {
       throw new TypeError("El archivo diccionario_lsp.json debe contener una lista.");
