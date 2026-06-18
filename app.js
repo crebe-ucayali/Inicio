@@ -69,6 +69,44 @@ function obtenerTextoConsultable(item) {
   );
 }
 
+function escaparComillasInternas(texto) {
+  let salida = "";
+
+  for (let i = 0; i < texto.length; i += 1) {
+    const caracter = texto[i];
+    const anterior = texto[i - 1];
+
+    if (caracter === "\"" && anterior !== "\\") {
+      salida += "\\\"";
+    } else {
+      salida += caracter;
+    }
+  }
+
+  return salida;
+}
+
+function repararLineaDescripcion(linea) {
+  const coincidencia = linea.match(/^(\s*"descripcion"\s*:\s*")(.*)("\s*,?\s*)$/);
+
+  if (!coincidencia) {
+    return linea;
+  }
+
+  const inicio = coincidencia[1];
+  const contenido = coincidencia[2];
+  const cierre = coincidencia[3];
+
+  return `${inicio}${escaparComillasInternas(contenido)}${cierre}`;
+}
+
+function repararJSONBanco(texto) {
+  return texto
+    .split("\n")
+    .map(repararLineaDescripcion)
+    .join("\n");
+}
+
 function ordenarResultados(lista) {
   return [...lista].sort((a, b) => {
     const categoriaA = formatearCategoria(a.categoria);
@@ -161,6 +199,7 @@ function crearTarjeta(item) {
   const imagen = tarjeta.querySelector(".imagen-sena");
   const categoria = tarjeta.querySelector(".categoria-tarjeta");
   const palabra = tarjeta.querySelector(".palabra-tarjeta");
+  const descripcion = tarjeta.querySelector(".descripcion-tarjeta");
   const fuente = tarjeta.querySelector(".fuente-tarjeta");
 
   imagen.src = item.archivo_imagen;
@@ -169,13 +208,26 @@ function crearTarjeta(item) {
     : "Representación visual en Lengua de Señas Peruana";
 
   if (esSecuencia(item)) {
-    categoria.textContent = "none";
+    categoria.textContent = "";
     categoria.hidden = true;
   } else {
     categoria.textContent = formatearCategoria(item.categoria);
+    categoria.hidden = false;
   }
 
   palabra.textContent = item.palabra || "Contenido sin título";
+
+  if (descripcion) {
+    const textoDescripcion = String(item.descripcion || "").trim();
+
+    if (textoDescripcion) {
+      descripcion.textContent = textoDescripcion;
+      descripcion.hidden = false;
+    } else {
+      descripcion.textContent = "";
+      descripcion.hidden = true;
+    }
+  }
 
   if (fuente) {
     fuente.textContent = "";
@@ -279,7 +331,9 @@ async function cargarBanco() {
       throw new Error(`Error HTTP ${respuesta.status}`);
     }
 
-    const datos = await respuesta.json();
+    const textoOriginal = await respuesta.text();
+    const textoReparado = repararJSONBanco(textoOriginal);
+    const datos = JSON.parse(textoReparado);
 
     if (!Array.isArray(datos)) {
       throw new TypeError("El archivo diccionario_lsp.json debe contener una lista.");
@@ -295,7 +349,7 @@ async function cargarBanco() {
 
     elementos.estado.hidden = false;
     elementos.estado.textContent =
-      "No fue posible cargar el banco. Verifica que el archivo datos/diccionario_lsp.json esté disponible y que la plataforma se abra desde GitHub Pages o un servidor local.";
+      "No fue posible cargar el banco. Verifica que el archivo datos/diccionario_lsp.json esté disponible y que no tenga errores de formato.";
 
     elementos.contador.textContent = "Datos no disponibles";
     elementos.mostrando.textContent = "";
