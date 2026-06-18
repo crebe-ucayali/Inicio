@@ -1939,7 +1939,7 @@
     "id": "LSP-000243",
     "categoria": "animales",
     "palabra": "araña",
-    "descripcion": "",
+    "descripcion": "Con los dedos semiflexionnados y extendidos realizar movimientos de avance con el índice, medio, anular y meñique",
     "archivo_imagen": "imagenes/animales/revisar_pagina_199_tarjeta_01.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1947,7 +1947,7 @@
     "id": "LSP-000244",
     "categoria": "animales",
     "palabra": "buho",
-    "descripcion": "Configurar con ambas manos la "D" y llevarlas a los ojos con movimientos suaves",
+    "descripcion": "Configurar con ambas manos la \"D\" y llevarlas a los ojos con movimientos suaves",
     "archivo_imagen": "imagenes/animales/revisar_pagina_199_tarjeta_02.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -1955,7 +1955,6 @@
     "id": "LSP-000245",
     "categoria": "animales",
     "palabra": "burro",
-    "descripcion": "",
     "descripcion": "Colocar la mano derecha en la sien con los dedos indice, medio, anular y mefique semiflexionados excepto el pulgar moviéndolos hacia adelante.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_199_tarjeta_03.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
@@ -1964,7 +1963,6 @@
     "id": "LSP-000246",
     "categoria": "animales",
     "palabra": "caballo",
-    "descripcion": "",
     "descripcion": "Con ambas manos con los dedos flexionados excepto el pulgar, a cada lado del tronco realizar movimientos circulares hacia adelante.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_199_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
@@ -2205,7 +2203,7 @@
     "id": "LSP-000276",
     "categoria": "animales",
     "palabra": "Vaca",
-    "descripcion": "Configurar "Y" con ambas manos, apoyar los pulgares extendidos en la sien, realizar un pequeño movimiento hacia arriba.",
+    "descripcion": "Configurar \"Y\" con ambas manos, apoyar los pulgares extendidos en la sien, realizar un pequeño movimiento hacia arriba.",
     "archivo_imagen": "imagenes/animales/revisar_pagina_204_tarjeta_04.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
@@ -2221,7 +2219,7 @@
     "id": "LSP-000278",
     "categoria": "animales",
     "palabra": "zorro",
-    "descripcion": "1. Con la mano derecha abierta sobre la cara, realizar un movimiento hacia afuera, uniendo los dedos. 2. Configurar la letra "Z".",
+    "descripcion": "1. Con la mano derecha abierta sobre la cara, realizar un movimiento hacia afuera, uniendo los dedos. 2. Configurar la letra \"Z\".",
     "archivo_imagen": "imagenes/animales/revisar_pagina_204_tarjeta_06.png",
     "fuente": "Ministerio de Educación del Perú - Guía de Lengua de Señas Peruana"
   },
