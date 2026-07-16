@@ -9,6 +9,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const botonRestablecer = document.querySelector("#boton-restablecer");
   const botonArriba = document.querySelector("#volver-arriba");
 
+  if (listaResultados) {
+    listaResultados.setAttribute("role", "region");
+    listaResultados.setAttribute("aria-live", "polite");
+  }
+
   let indiceBusqueda = [];
 
   const normalizarTexto = (texto) => {
