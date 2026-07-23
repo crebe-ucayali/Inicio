@@ -47,6 +47,12 @@
     });
   };
 
+  const sincronizarPanelCentral = (preferencias = leerPreferencias()) => {
+    document.querySelectorAll(".eva-accesibilidad-panel [data-eva-clase]").forEach((boton) => {
+      boton.setAttribute("aria-pressed", preferencias[boton.dataset.evaClase] ? "true" : "false");
+    });
+  };
+
   const migrarPreferenciasAnteriores = () => {
     const preferencias = leerPreferencias();
     let modificadas = false;
@@ -91,6 +97,7 @@
       "movimiento-reducido"
     );
     aplicarPreferencias(preferencias);
+    sincronizarPanelCentral(preferencias);
   };
 
   const actualizarAtajos = () => {
@@ -108,6 +115,8 @@
     if (botonContraste) {
       botonContraste.setAttribute("aria-pressed", preferencias["eva-alto-contraste"] ? "true" : "false");
     }
+
+    sincronizarPanelCentral(preferencias);
   };
 
   const anunciar = (mensaje) => {
@@ -176,8 +185,9 @@
     if (document.querySelector('script[data-eva-accesibilidad-central="10"]')) return;
     const script = document.createElement("script");
     script.src = CENTRAL_URL;
-    script.defer = true;
+    script.async = false;
     script.dataset.evaAccesibilidadCentral = "10";
+    script.addEventListener("load", () => actualizarAtajos());
     document.head.appendChild(script);
   };
 
@@ -188,5 +198,13 @@
     migrarPreferenciasAnteriores();
     configurarAtajos();
     actualizarAtajos();
+
+    const observador = new MutationObserver(() => {
+      if (document.querySelector(".eva-accesibilidad-panel")) {
+        actualizarAtajos();
+        observador.disconnect();
+      }
+    });
+    observador.observe(document.body, { childList: true, subtree: true });
   });
 })();
