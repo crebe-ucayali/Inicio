@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Prueba de tarjetas educativas | EVA</title>
-  <meta name="description" content="Demostración accesible de tarjetas educativas para el Ecosistema Virtual Accesible.">
-  <link rel="stylesheet" href="estilos.css?v=1">
+  <title>Tarjetas educativas accesibles | EVA</title>
+  <meta name="description" content="Herramienta experimental para crear, guardar y practicar con tarjetas educativas accesibles en EVA.">
+  <link rel="stylesheet" href="estilos.css?v=2">
 </head>
 <body>
   <a class="saltar" href="#contenido-principal">Saltar al contenido principal</a>
@@ -22,37 +22,42 @@
 
   <main id="contenido-principal" class="contenedor">
     <section class="presentacion" aria-labelledby="titulo-pagina">
-      <p class="etiqueta">Ruta experimental</p>
+      <p class="etiqueta">Ruta experimental · Fase 1</p>
       <h1 id="titulo-pagina">Tarjetas educativas accesibles</h1>
       <p>
-        Esta demostración permite estudiar un concepto, descubrir su respuesta y avanzar entre tarjetas.
-        Puede utilizarse con teclado, lector de pantalla, celular o computadora.
+        Practique con las tarjetas disponibles o cree una colección personal que permanecerá guardada
+        en este navegador. La herramienta funciona con teclado, lector de pantalla, celular o computadora.
       </p>
+      <nav class="atajos-seccion" aria-label="Secciones de la herramienta">
+        <a href="#practicar">Practicar</a>
+        <a href="#crear">Crear tarjeta</a>
+        <a href="#mis-tarjetas">Mis tarjetas</a>
+      </nav>
     </section>
 
-    <section class="panel" aria-labelledby="titulo-actividad">
+    <section id="practicar" class="panel" aria-labelledby="titulo-actividad">
       <div class="panel-encabezado">
         <div>
-          <p id="progreso" class="progreso" aria-live="polite">Tarjeta 1 de 6</p>
+          <p id="progreso" class="progreso" aria-live="polite">Tarjeta 1</p>
           <h2 id="titulo-actividad">Práctica de accesibilidad e inclusión</h2>
         </div>
         <label class="selector">
           Tema
           <select id="selector-tema">
-            <option value="todos">Todos</option>
-            <option value="braille">Braille</option>
-            <option value="accesibilidad">Accesibilidad</option>
-            <option value="inclusion">Inclusión educativa</option>
+            <option value="todos">Todos los temas</option>
           </select>
         </label>
       </div>
 
       <article id="tarjeta" class="tarjeta" tabindex="0" aria-labelledby="pregunta" aria-describedby="instruccion-tarjeta">
-        <span id="categoria" class="categoria">Braille</span>
-        <p id="instruccion-tarjeta" class="instruccion">Lea la pregunta y active “Mostrar respuesta”.</p>
+        <div class="tarjeta-metadatos">
+          <span id="categoria" class="categoria">Braille</span>
+          <span id="tipo-tarjeta" class="tipo-tarjeta">Pregunta y respuesta</span>
+        </div>
+        <p id="instruccion-tarjeta" class="instruccion">Lea el contenido y active “Mostrar respuesta”.</p>
         <h3 id="pregunta">¿Cuántos puntos conforman la celda Braille?</h3>
         <div id="respuesta" class="respuesta" hidden>
-          <p class="respuesta-etiqueta">Respuesta</p>
+          <p id="etiqueta-respuesta" class="respuesta-etiqueta">Respuesta</p>
           <p id="texto-respuesta">La celda Braille está formada por seis puntos organizados en dos columnas de tres.</p>
         </div>
       </article>
@@ -67,44 +72,141 @@
 
       <div class="acciones-secundarias">
         <button id="aleatoria" type="button">Tarjeta aleatoria</button>
-        <button id="reiniciar" type="button">Reiniciar actividad</button>
+        <button id="reiniciar" type="button">Reiniciar práctica</button>
       </div>
 
       <details class="ayuda">
-        <summary>Cómo usar esta prueba</summary>
+        <summary>Cómo usar la práctica</summary>
         <ul>
-          <li>Use los botones Anterior y Siguiente para recorrer las tarjetas.</li>
-          <li>Presione la barra espaciadora sobre la tarjeta para mostrar u ocultar la respuesta.</li>
+          <li>Use Anterior y Siguiente para recorrer las tarjetas.</li>
+          <li>Presione Espacio o Enter sobre la tarjeta para mostrar u ocultar el contenido.</li>
           <li>Use las flechas izquierda y derecha para cambiar de tarjeta.</li>
-          <li>Seleccione un tema para practicar solamente una categoría.</li>
+          <li>Las tarjetas creadas por usted se incorporan automáticamente a la práctica.</li>
         </ul>
       </details>
     </section>
 
-    <section class="explicacion" aria-labelledby="titulo-aplicacion">
-      <h2 id="titulo-aplicacion">¿Cómo podría aplicarse en EVA?</h2>
+    <section id="crear" class="panel creador" aria-labelledby="titulo-creador">
+      <div class="seccion-encabezado">
+        <div>
+          <p class="etiqueta-seccion">Crear contenido</p>
+          <h2 id="titulo-creador">Nueva tarjeta educativa</h2>
+          <p>Complete los campos esenciales. En esta fase las tarjetas se guardan solamente en este dispositivo.</p>
+        </div>
+        <button id="cancelar-edicion" type="button" class="secundario" hidden>Cancelar edición</button>
+      </div>
+
+      <form id="formulario-tarjeta" novalidate>
+        <input id="tarjeta-id" name="tarjeta-id" type="hidden">
+
+        <div class="formulario-cuadricula">
+          <label>
+            Tipo de tarjeta
+            <select id="campo-tipo" name="tipo" required>
+              <option value="pregunta">Pregunta y respuesta</option>
+              <option value="concepto">Concepto</option>
+              <option value="rutina">Rutina o instrucción</option>
+            </select>
+          </label>
+
+          <label>
+            Categoría o tema
+            <input id="campo-categoria" name="categoria" type="text" maxlength="40" required placeholder="Ejemplo: Emociones">
+          </label>
+        </div>
+
+        <label>
+          <span id="etiqueta-frente">Pregunta o título</span>
+          <input id="campo-frente" name="frente" type="text" maxlength="120" required placeholder="Ejemplo: ¿Qué es un ajuste razonable?">
+          <small id="ayuda-frente">Escriba el contenido principal que aparecerá primero.</small>
+        </label>
+
+        <label>
+          <span id="etiqueta-reverso">Respuesta o explicación</span>
+          <textarea id="campo-reverso" name="reverso" rows="5" maxlength="420" required placeholder="Escriba una respuesta breve, clara y educativa."></textarea>
+          <small id="contador-reverso">0 de 420 caracteres</small>
+        </label>
+
+        <fieldset>
+          <legend>Vista previa</legend>
+          <article id="vista-previa" class="tarjeta tarjeta-previa" aria-live="polite">
+            <div class="tarjeta-metadatos">
+              <span id="previa-categoria" class="categoria">Categoría</span>
+              <span id="previa-tipo" class="tipo-tarjeta">Pregunta y respuesta</span>
+            </div>
+            <p class="instruccion">Así se mostrará el contenido principal.</p>
+            <h3 id="previa-frente">La vista previa aparecerá aquí</h3>
+            <div class="respuesta vista-respuesta">
+              <p id="previa-etiqueta" class="respuesta-etiqueta">Respuesta</p>
+              <p id="previa-reverso">Complete los campos para revisar su tarjeta.</p>
+            </div>
+          </article>
+        </fieldset>
+
+        <p id="estado-formulario" class="estado-formulario" role="status" aria-live="polite">
+          Complete los campos obligatorios.
+        </p>
+
+        <div class="acciones-formulario">
+          <button id="guardar-tarjeta" type="submit" class="principal">Guardar tarjeta</button>
+          <button id="limpiar-formulario" type="button">Limpiar campos</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="mis-tarjetas" class="panel banco" aria-labelledby="titulo-banco">
+      <div class="seccion-encabezado">
+        <div>
+          <p class="etiqueta-seccion">Colección personal</p>
+          <h2 id="titulo-banco">Mis tarjetas</h2>
+          <p id="contador-tarjetas" aria-live="polite">No hay tarjetas personales guardadas.</p>
+        </div>
+      </div>
+
+      <div class="filtros-banco">
+        <label>
+          Buscar en mis tarjetas
+          <input id="buscar-personales" type="search" autocomplete="off" placeholder="Título, respuesta o categoría">
+        </label>
+        <label>
+          Filtrar por tipo
+          <select id="filtro-tipo">
+            <option value="todos">Todos</option>
+            <option value="pregunta">Pregunta y respuesta</option>
+            <option value="concepto">Concepto</option>
+            <option value="rutina">Rutina o instrucción</option>
+          </select>
+        </label>
+      </div>
+
+      <p id="estado-banco" class="estado-formulario" role="status" aria-live="polite"></p>
+      <div id="lista-personales" class="lista-personales" aria-label="Tarjetas personales guardadas"></div>
+    </section>
+
+    <section class="explicacion" aria-labelledby="titulo-fases">
+      <h2 id="titulo-fases">Desarrollo gradual de la herramienta</h2>
       <div class="usos">
-        <article>
-          <h3>BDA</h3>
-          <p>Reconocimiento de letras Braille, signos, conceptos teóricos y vocabulario de Lengua de Señas Peruana.</p>
+        <article class="fase-actual">
+          <h3>Fase 1 · Activa</h3>
+          <p>Crear, guardar, editar, duplicar, eliminar, buscar y practicar con tarjetas personales.</p>
         </article>
         <article>
-          <h3>MEA</h3>
-          <p>Tarjetas de emociones, normas, rutinas, pictogramas, secuencias y apoyos visuales.</p>
+          <h3>Fase 2 · Pendiente</h3>
+          <p>Incorporar imágenes, texto alternativo, plantillas visuales y categorías institucionales.</p>
         </article>
         <article>
-          <h3>CAP</h3>
-          <p>Repaso de contenidos, preguntas de capacitación y comprobación rápida del aprendizaje.</p>
+          <h3>Fase 3 · Pendiente</h3>
+          <p>Añadir impresión, lectura en voz alta, secuencias y exportación de colecciones.</p>
         </article>
       </div>
     </section>
   </main>
 
   <footer>
-    <p>Demostración experimental de EVA. No forma parte todavía de los módulos oficiales.</p>
+    <p>Herramienta experimental de EVA. Las tarjetas personales se almacenan localmente en el navegador.</p>
   </footer>
 
-  <script src="app.js?v=1"></script>
+  <script src="app.js?v=2"></script>
   <script src="https://crebe-ucayali.github.io/accesos-complementarios/accesibilidad/accesibilidad.js?v=10"></script>
 </body>
 </html>
