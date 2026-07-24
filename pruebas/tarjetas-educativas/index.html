@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tarjetas educativas accesibles | EVA</title>
-  <meta name="description" content="Herramienta experimental para crear, guardar y practicar con tarjetas educativas accesibles en EVA.">
-  <link rel="stylesheet" href="estilos.css?v=2">
+  <meta name="description" content="Herramienta experimental para crear, guardar y practicar con tarjetas educativas multimedia accesibles en EVA.">
+  <link rel="stylesheet" href="estilos.css?v=3">
 </head>
 <body>
   <a class="saltar" href="#contenido-principal">Saltar al contenido principal</a>
@@ -22,11 +22,11 @@
 
   <main id="contenido-principal" class="contenedor">
     <section class="presentacion" aria-labelledby="titulo-pagina">
-      <p class="etiqueta">Ruta experimental · Fase 1</p>
+      <p class="etiqueta">Ruta experimental · Fase 2</p>
       <h1 id="titulo-pagina">Tarjetas educativas accesibles</h1>
       <p>
-        Practique con las tarjetas disponibles o cree una colección personal que permanecerá guardada
-        en este navegador. La herramienta funciona con teclado, lector de pantalla, celular o computadora.
+        Practique con las tarjetas disponibles o cree una colección personal con imágenes accesibles,
+        plantillas visuales y contenido guardado en este navegador.
       </p>
       <nav class="atajos-seccion" aria-label="Secciones de la herramienta">
         <a href="#practicar">Practicar</a>
@@ -49,12 +49,15 @@
         </label>
       </div>
 
-      <article id="tarjeta" class="tarjeta" tabindex="0" aria-labelledby="pregunta" aria-describedby="instruccion-tarjeta">
+      <article id="tarjeta" class="tarjeta plantilla-clasica" tabindex="0" aria-labelledby="pregunta" aria-describedby="instruccion-tarjeta">
         <div class="tarjeta-metadatos">
           <span id="categoria" class="categoria">Braille</span>
           <span id="tipo-tarjeta" class="tipo-tarjeta">Pregunta y respuesta</span>
         </div>
         <p id="instruccion-tarjeta" class="instruccion">Lea el contenido y active “Mostrar respuesta”.</p>
+        <figure id="contenedor-imagen-practica" class="tarjeta-imagen" hidden>
+          <img id="imagen-practica" alt="">
+        </figure>
         <h3 id="pregunta">¿Cuántos puntos conforman la celda Braille?</h3>
         <div id="respuesta" class="respuesta" hidden>
           <p id="etiqueta-respuesta" class="respuesta-etiqueta">Respuesta</p>
@@ -81,7 +84,7 @@
           <li>Use Anterior y Siguiente para recorrer las tarjetas.</li>
           <li>Presione Espacio o Enter sobre la tarjeta para mostrar u ocultar el contenido.</li>
           <li>Use las flechas izquierda y derecha para cambiar de tarjeta.</li>
-          <li>Las tarjetas creadas por usted se incorporan automáticamente a la práctica.</li>
+          <li>Las imágenes incluyen la descripción accesible escrita al crear cada tarjeta.</li>
         </ul>
       </details>
     </section>
@@ -89,9 +92,9 @@
     <section id="crear" class="panel creador" aria-labelledby="titulo-creador">
       <div class="seccion-encabezado">
         <div>
-          <p class="etiqueta-seccion">Crear contenido</p>
+          <p class="etiqueta-seccion">Crear contenido multimedia</p>
           <h2 id="titulo-creador">Nueva tarjeta educativa</h2>
-          <p>Complete los campos esenciales. En esta fase las tarjetas se guardan solamente en este dispositivo.</p>
+          <p>La imagen es opcional. Cuando se incorpora una, su descripción accesible pasa a ser obligatoria.</p>
         </div>
         <button id="cancelar-edicion" type="button" class="secundario" hidden>Cancelar edición</button>
       </div>
@@ -99,7 +102,7 @@
       <form id="formulario-tarjeta" novalidate>
         <input id="tarjeta-id" name="tarjeta-id" type="hidden">
 
-        <div class="formulario-cuadricula">
+        <div class="formulario-cuadricula tres-columnas">
           <label>
             Tipo de tarjeta
             <select id="campo-tipo" name="tipo" required>
@@ -111,7 +114,24 @@
 
           <label>
             Categoría o tema
-            <input id="campo-categoria" name="categoria" type="text" maxlength="40" required placeholder="Ejemplo: Emociones">
+            <input id="campo-categoria" name="categoria" type="text" maxlength="40" required list="categorias-sugeridas" placeholder="Ejemplo: Emociones">
+            <datalist id="categorias-sugeridas">
+              <option value="Accesibilidad"></option>
+              <option value="Braille"></option>
+              <option value="Emociones"></option>
+              <option value="Inclusión educativa"></option>
+              <option value="Lengua de Señas Peruana"></option>
+              <option value="Rutinas"></option>
+            </datalist>
+          </label>
+
+          <label>
+            Plantilla visual
+            <select id="campo-plantilla" name="plantilla">
+              <option value="clasica">Clásica</option>
+              <option value="visual">Imagen destacada</option>
+              <option value="contraste">Alto contraste</option>
+            </select>
           </label>
         </div>
 
@@ -127,14 +147,44 @@
           <small id="contador-reverso">0 de 420 caracteres</small>
         </label>
 
+        <fieldset class="campo-imagen">
+          <legend>Imagen accesible opcional</legend>
+          <div class="formulario-cuadricula">
+            <label>
+              Seleccionar imagen
+              <input id="campo-imagen" name="imagen" type="file" accept="image/jpeg,image/png,image/webp">
+              <small>Formatos JPG, PNG o WebP. Máximo 5 MB. La imagen se reduce antes de guardarse.</small>
+            </label>
+
+            <label>
+              Descripción accesible de la imagen
+              <input id="campo-alternativo" name="alternativo" type="text" maxlength="160" placeholder="Ejemplo: Niño lavándose las manos con agua y jabón">
+              <small id="ayuda-alternativo">Será obligatoria cuando seleccione una imagen.</small>
+            </label>
+          </div>
+
+          <div id="control-imagen" class="control-imagen" hidden>
+            <figure class="miniatura-formulario">
+              <img id="imagen-formulario" alt="">
+            </figure>
+            <div>
+              <p id="estado-imagen" role="status" aria-live="polite">Imagen preparada.</p>
+              <button id="retirar-imagen" type="button" class="peligro">Retirar imagen</button>
+            </div>
+          </div>
+        </fieldset>
+
         <fieldset>
           <legend>Vista previa</legend>
-          <article id="vista-previa" class="tarjeta tarjeta-previa" aria-live="polite">
+          <article id="vista-previa" class="tarjeta tarjeta-previa plantilla-clasica" aria-live="polite">
             <div class="tarjeta-metadatos">
               <span id="previa-categoria" class="categoria">Categoría</span>
               <span id="previa-tipo" class="tipo-tarjeta">Pregunta y respuesta</span>
             </div>
             <p class="instruccion">Así se mostrará el contenido principal.</p>
+            <figure id="contenedor-imagen-previa" class="tarjeta-imagen" hidden>
+              <img id="imagen-previa" alt="">
+            </figure>
             <h3 id="previa-frente">La vista previa aparecerá aquí</h3>
             <div class="respuesta vista-respuesta">
               <p id="previa-etiqueta" class="respuesta-etiqueta">Respuesta</p>
@@ -166,7 +216,7 @@
       <div class="filtros-banco">
         <label>
           Buscar en mis tarjetas
-          <input id="buscar-personales" type="search" autocomplete="off" placeholder="Título, respuesta o categoría">
+          <input id="buscar-personales" type="search" autocomplete="off" placeholder="Título, contenido, categoría o descripción de imagen">
         </label>
         <label>
           Filtrar por tipo
@@ -177,6 +227,10 @@
             <option value="rutina">Rutina o instrucción</option>
           </select>
         </label>
+        <label class="casilla-filtro">
+          <input id="solo-favoritas" type="checkbox">
+          Mostrar solo favoritas
+        </label>
       </div>
 
       <p id="estado-banco" class="estado-formulario" role="status" aria-live="polite"></p>
@@ -186,13 +240,13 @@
     <section class="explicacion" aria-labelledby="titulo-fases">
       <h2 id="titulo-fases">Desarrollo gradual de la herramienta</h2>
       <div class="usos">
-        <article class="fase-actual">
-          <h3>Fase 1 · Activa</h3>
+        <article class="fase-completa">
+          <h3>Fase 1 · Completada</h3>
           <p>Crear, guardar, editar, duplicar, eliminar, buscar y practicar con tarjetas personales.</p>
         </article>
-        <article>
-          <h3>Fase 2 · Pendiente</h3>
-          <p>Incorporar imágenes, texto alternativo, plantillas visuales y categorías institucionales.</p>
+        <article class="fase-actual">
+          <h3>Fase 2 · Activa</h3>
+          <p>Imágenes locales optimizadas, texto alternativo obligatorio, plantillas visuales, favoritos y categorías sugeridas.</p>
         </article>
         <article>
           <h3>Fase 3 · Pendiente</h3>
@@ -203,10 +257,10 @@
   </main>
 
   <footer>
-    <p>Herramienta experimental de EVA. Las tarjetas personales se almacenan localmente en el navegador.</p>
+    <p>Herramienta experimental de EVA. Las tarjetas y sus imágenes se almacenan localmente en el navegador.</p>
   </footer>
 
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=3"></script>
   <script src="https://crebe-ucayali.github.io/accesos-complementarios/accesibilidad/accesibilidad.js?v=10"></script>
 </body>
 </html>
